@@ -1,0 +1,11 @@
+fastapi
+uvicorn
+pydantic
+requests
+beautifulsoup4
+python-dotenv
+sqlite3-binary
+plotly
+pandas
+streamlit
+uuid
