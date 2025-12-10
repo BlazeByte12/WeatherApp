@@ -4,18 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="62066829-5c34-482a-9323-19db267488e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/user.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/weather.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/requirements" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routers/auth_router.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Weather app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Weather app.iml" afterDir="false" />
+    <list default="true" id="62066829-5c34-482a-9323-19db267488e5" name="Changes" comment="Added project structure, database setup and requirements">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/generate_key.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/generate_key.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/security.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,11 +47,17 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Benjamin/Desktop/PythonProject/Weather app/routers&quot;
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app\routers" />
+      <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app\models" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app\models" />
       <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app" />
     </key>
   </component>
@@ -80,6 +76,19 @@
       <option name="presentableId" value="Default" />
       <updated>1765223427506</updated>
     </task>
+    <task id="LOCAL-00001" summary="Added project structure, database setup and requirements">
+      <option name="closed" value="true" />
+      <created>1765305860278</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1765305860278</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added project structure, database setup and requirements" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added project structure, database setup and requirements" />
   </component>
 </project>
