@@ -33,7 +33,6 @@ def home():
 app.include_router(auth_router, prefix="/auth")
 app.include_router(weather_router, prefix="/api")
 
-# Ruta za graf (možeš je pozvati: /api/weather_graph/{city})
 @app.get("/api/weather_graph/{city}")
 def weather_graph(city: str):
     try:
