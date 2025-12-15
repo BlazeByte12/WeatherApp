@@ -9,6 +9,8 @@ def get_db_connection():
     return conn
 
 def create_database():
+    if not os.path.exists("data"):
+        os.makedirs("data")
     conn = get_db_connection()
     cursor = conn.cursor()
 
