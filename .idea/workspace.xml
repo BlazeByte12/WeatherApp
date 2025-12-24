@@ -5,17 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="62066829-5c34-482a-9323-19db267488e5" name="Changes" comment="Izmjene">
-      <change afterPath="$PROJECT_DIR$/frontend/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/frontend/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/header_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/streamlit_app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api.py" beforeDir="false" afterPath="$PROJECT_DIR$/api.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/auth/security.py" beforeDir="false" afterPath="$PROJECT_DIR$/auth/security.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/data/weather.db.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/script.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend/style.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/graph.py" beforeDir="false" afterPath="$PROJECT_DIR$/graph.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/user.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/weather.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/auth_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/auth_router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routers/weather_router.py" beforeDir="false" afterPath="$PROJECT_DIR$/routers/weather_router.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/scraper.py" afterDir="false" />
@@ -63,7 +64,9 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Benjamin/Desktop/PythonProject/Weather app/routers&quot;
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Benjamin/Desktop/Projektii/PythonProject/New folder/New folder/Weather app&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
 }</component>
   <component name="RecentsManager">
@@ -72,6 +75,8 @@
       <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app\models" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Benjamin\Desktop\Projektii\PythonProject\New folder\New folder\Weather app" />
+      <recent name="C:\Users\Benjamin\Desktop\Projektii\PythonProject\New folder\New folder\Weather app\models" />
       <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app\frontend" />
       <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app" />
       <recent name="C:\Users\Benjamin\Desktop\PythonProject\Weather app\models" />
@@ -145,7 +150,31 @@
       <option name="project" value="LOCAL" />
       <updated>1765394914439</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Izmjene">
+      <option name="closed" value="true" />
+      <created>1765825670904</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1765825670904</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Izmjene">
+      <option name="closed" value="true" />
+      <created>1765825745630</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1765825745630</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Izmjene">
+      <option name="closed" value="true" />
+      <created>1765825844953</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1765825844953</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">

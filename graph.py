@@ -1,40 +1,28 @@
-import sqlite3
-from database import get_db_connection
+import matplotlib
+matplotlib.use("Agg")
+
 import matplotlib.pyplot as plt
+from io import BytesIO
+import base64
+from scraper import scrape_weather
 
 def plot_weather(city: str):
+    data = scrape_weather(city)
+    if "error" in data:
+        return None
 
-    conn = get_db_connection()
-    cursor = conn.cursor()
+    dates = [d["date"] for d in data["forecast"]]
+    temps = [int(d["avg_temp"]) for d in data["forecast"]]
 
-    try:
-        cursor.execute(
-            "SELECT temperature, timestamp FROM weather_logs WHERE city = ? ORDER BY timestamp ASC",
-            (city,)
-        )
-        rows = cursor.fetchall()
+    fig, ax = plt.subplots()
+    ax.plot(dates, temps, marker="o")
+    ax.set_title(f"3-Day Avg Temp – {city}")
+    ax.set_ylabel("°C")
+    ax.grid(True)
 
-        if not rows:
-            print(f"Nema podataka za grad: {city}")
-            return
+    buf = BytesIO()
+    plt.savefig(buf, format="png")
+    plt.close(fig)
+    buf.seek(0)
 
-        temperatures = [row["temperature"] for row in rows]
-        timestamps = [row["timestamp"] for row in rows]
-
-        plt.figure(figsize=(10, 5))
-        plt.plot(timestamps, temperatures, marker='o', linestyle='-', color='blue')
-        plt.title(f"Temperature over time in {city}")
-        plt.xlabel("Timestamp")
-        plt.ylabel("Temperature (°C)")
-        plt.xticks(rotation=45)
-        plt.tight_layout()
-        plt.grid(True)
-        plt.show()
-
-    finally:
-        conn.close()
-
-
-if __name__ == "__main__":
-    grad = input("Unesi ime grada za graf: ")
-    plot_weather(grad)
+    return base64.b64encode(buf.read()).decode()
